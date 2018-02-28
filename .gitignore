@@ -1,0 +1,20 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+
+# folders
+server
+internals
+docs
+
+# files
+*.md
+*.yml
+*.lock
