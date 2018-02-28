@@ -37,5 +37,5 @@ export default defineMessages({
   HeaderUserMenuItemTwo: {
     id: 'boilerplate.containers.app.header.usermenu.item.two',
     defaultMessage: 'Sign out',
-  }
+  } 
 });
