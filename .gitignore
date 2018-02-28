@@ -13,6 +13,7 @@ npm-debug.log
 server
 internals
 docs
+app/config
 
 # files
 *.md

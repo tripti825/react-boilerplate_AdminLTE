@@ -1,27 +1,31 @@
+import React, { Component } from 'react';
+import { FormattedMessage } from 'react-intl';
+import messages from './messages';
+  
 export const sidebaritems = [
 	{
-		title: 'Dashboard' ,
+		title: <FormattedMessage {...messages.SidebarItemOne} /> ,
 		icon : 'fa-dashboard',
 		link : 'dashboard'
 	},
 	{
-		title: 'Page 1',
+		title: <FormattedMessage {...messages.SidebarItemTwo} />,
 		icon : 'fa-files-o',
 		children: [
 			{
-				title: 'Level 1' ,
+				title: <FormattedMessage {...messages.SidebarItemTwoChildOne} /> ,
 				icon : 'fa-share',
 				link : 'level1'
 			},
 			{
-				title: 'Level 2' ,
+				title: <FormattedMessage {...messages.SidebarItemTwoChildTwo} /> ,
 				icon : 'fa-share',
 				link : 'level2'
 			}
 		]
 	},
 	{
-		title: 'Homepage',
+		title: <FormattedMessage {...messages.SidebarItemThree} />,
 		icon : 'fa-th',
 		link : 'homepage'
 	}
@@ -29,7 +33,7 @@ export const sidebaritems = [
 
 export const headeritems = [
 	{
-		title: 'Github' ,
+		title: <FormattedMessage {...messages.HeaderItemOne} /> ,
 		icon : 'fa fa-github',
 		href : 'https://github.com/'
 	}

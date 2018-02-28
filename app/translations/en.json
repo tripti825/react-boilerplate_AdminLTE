@@ -22,5 +22,21 @@
   "boilerplate.containers.Landing.section.login.button":"Login",
   "boilerplate.containers.Form.field.name":"Name",
   "boilerplate.containers.Form.field.email":"Email",
-  "boilerplate.containers.Form.field.password":"Password"
+  "boilerplate.containers.Form.field.password":"Password",
+  "boilerplate.containers.Level1.title": "Enter Data",
+  "boilerplate.containers.Level1.field.title": "Title",
+  "boilerplate.containers.Level1.field.post": "Post",
+  "boilerplate.containers.Level1.button.one": "Submit",
+  "boilerplate.containers.Level1.button.two": "Cancel",
+  "boilerplate.containers.app.sidebar.item.one": "Dashboard",
+  "boilerplate.containers.app.sidebar.item.two": "Page 1",
+  "boilerplate.containers.app.sidebar.item.two.child.one": "Level 1",
+  "boilerplate.containers.app.sidebar.item.two.child.two": "Level 2",
+  "boilerplate.containers.app.sidebar.item.three": "Homepage",
+  "boilerplate.containers.app.header.item.one": "Github",
+  "boilerplate.containers.Level2.table.first.title": "Id",
+  "boilerplate.containers.Level2.table.second.title": "Title",
+  "boilerplate.containers.Level2.table.third.title": "Post",
+  "boilerplate.containers.app.header.usermenu.item.one": "Profile",
+  "boilerplate.containers.app.header.usermenu.item.two": "Sign out"
 }

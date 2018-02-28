@@ -22,5 +22,21 @@
   "boilerplate.containers.Landing.section.login.button":"Anmeldung",
   "boilerplate.containers.Form.field.name":"Name",
   "boilerplate.containers.Form.field.email":"Email",
-  "boilerplate.containers.Form.field.password":"Passwort"
+  "boilerplate.containers.Form.field.password":"Passwort",
+  "boilerplate.containers.Level1.title": "Daten eingeben",
+  "boilerplate.containers.Level1.field.title": "Titel",
+  "boilerplate.containers.Level1.field.post": "Post",
+  "boilerplate.containers.Level1.button.one": "einreichen",
+  "boilerplate.containers.Level1.button.two": "Stornieren",
+  "boilerplate.containers.app.sidebar.item.one": "Instrumententafel",
+  "boilerplate.containers.app.sidebar.item.two": "Seite 1",
+  "boilerplate.containers.app.sidebar.item.two.child.one": "Level 1",
+  "boilerplate.containers.app.sidebar.item.two.child.two": "Level 2",
+  "boilerplate.containers.app.sidebar.item.three": "Startseite",
+  "boilerplate.containers.app.header.item.one": "Github",
+  "boilerplate.containers.Level2.table.first.title": "Id",
+  "boilerplate.containers.Level2.table.second.title": "Titel",
+  "boilerplate.containers.Level2.table.third.title": "Post",
+  "boilerplate.containers.app.header.usermenu.item.one": "Profil",
+  "boilerplate.containers.app.header.usermenu.item.two": "Ausloggen"
 }

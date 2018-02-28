@@ -169,7 +169,7 @@ const NavItem = ({ title, onClick, href, image, iconClass }) => (
 );
 
 NavItem.propTypes = {
-  title: React.PropTypes.string,
+  title: React.PropTypes.object,
   onClick: React.PropTypes.func,
   href: React.PropTypes.string,
   image: React.PropTypes.string,

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import {
-  Link,
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { FormattedMessage } from 'react-intl';
 
 class Level2 extends Component {
@@ -18,9 +16,9 @@ class Level2 extends Component {
       <table>
       <thead>
       <tr> 
-        <th>Id</th>
-        <th>Title</th>
-        <th>Post</th>
+        <th><FormattedMessage {...messages.level2TableFirstColumn} /></th>
+        <th><FormattedMessage {...messages.level2TableSecondColumn} /></th>
+        <th><FormattedMessage {...messages.level2TableThirdColumn} /></th>
       </tr>
       </thead>
       <tbody>

@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import {
-  Link,
-} from 'react-router-dom';
-import { FormattedMessage } from 'react-intl';
-import { injectIntl, intlShape } from 'react-intl';
+import { Link } from 'react-router-dom';
+import { FormattedMessage, injectIntl, intlShape } from 'react-intl';
 
 class Login extends Component {
   constructor(props) {

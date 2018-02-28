@@ -1,21 +1,29 @@
 /*
- * HomePage Messages
+ * Level1 Messages
  *
- * This contains all the text for the HomePage component.
+ * This contains all the text for the Level1 component.
  */
 import { defineMessages } from 'react-intl';
 
 export default defineMessages({
-  startProjectNavbarTitle: {
-    id: 'boilerplate.containers.HomePage.navbar.firstitem.title',
-    defaultMessage: 'Homepage',
+  level1PageTitle: {
+    id: 'boilerplate.containers.Level1.title',
+    defaultMessage: 'Enter Data',
   },
-  startProjectWelcomeMessage: {
-    id: 'boilerplate.containers.HomePage.start_project.welcome',
-    defaultMessage: 'Welcome ',
+  level1PageFieldOneTitle: {
+    id: 'boilerplate.containers.Level1.field.title',
+    defaultMessage: 'Title',
   },
-  LogoutOptionTitle: {
-    id: 'boilerplate.containers.HomePage.logout.title',
-    defaultMessage: 'Logout',
+  level1PageFieldTwoTitle: {
+    id: 'boilerplate.containers.Level1.field.post',
+    defaultMessage: 'Post',
   },
+  level1PageButtonOne: {
+    id: 'boilerplate.containers.Level1.button.one',
+    defaultMessage: 'Submit',
+  },
+  level1PageButtonTwo: {
+    id: 'boilerplate.containers.Level1.button.two',
+    defaultMessage: 'Cancel',
+  }
 });

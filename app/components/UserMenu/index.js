@@ -211,11 +211,11 @@ class UserMenu extends React.Component {
           <UserFooter>
             {this.props.profileAction &&
               <div style={{ float: 'left' }}>
-                <UserFooterButton onClick={this.props.profileAction}>Profile</UserFooterButton>
+                <UserFooterButton onClick={this.props.profileAction}>{this.props.profileTitle}</UserFooterButton>
               </div>}
             {this.props.signOutAction &&
               <div style={{ float: 'right' }}>
-                <UserFooterButton onClick={this.props.signOutAction}>Sign Out</UserFooterButton>
+                <UserFooterButton onClick={this.props.signOutAction}>{this.props.signOutTitle}</UserFooterButton>
               </div>}
           </UserFooter>
         </UserDropDown>

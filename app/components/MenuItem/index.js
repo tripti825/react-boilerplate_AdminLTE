@@ -416,7 +416,7 @@ MenuItem.propTypes = {
   level: React.PropTypes.number,
   onClick: React.PropTypes.func,
   parentHover: React.PropTypes.bool,
-  title: React.PropTypes.string,
+  title: React.PropTypes.object,
 };
 
 MenuItem.defaultProps = {

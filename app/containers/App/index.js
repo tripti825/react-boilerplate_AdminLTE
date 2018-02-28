@@ -16,9 +16,12 @@ import { compose }  from 'redux';
 import { Helmet }   from 'react-helmet';
 import { Redirect } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
-import tinycolor    from 'tinycolor2';
+import { FormattedMessage, injectIntl, intlShape }      from 'react-intl';
+import tinycolor from 'tinycolor2';
 import { Alert } from 'reactstrap';
 
+
+import messages  from './messages';
 import { headeritems, sidebaritems } from './menuitems';
 import { loginActions }              from 'containers/Login/action';
 import { alert, authentication }     from './selectors';
@@ -80,6 +83,9 @@ class App extends Component {
   render() {
     const theme = themes[this.props.theme];
     const { alert, authentication, location } = this.props;
+    const userMenuProfile = this.props.intl.formatMessage(messages.HeaderUserMenuItemOne);
+    const userMenuSignOut = this.props.intl.formatMessage(messages.HeaderUserMenuItemTwo);
+
     const sidebarmap = (menu) => menu.map((item, index) => {
       let link = location.pathname;
       return <Sidebar.Menu.Item 
@@ -119,7 +125,9 @@ class App extends Component {
             name={authentication.user.user_data[0].result.name}
             image="user2-160x160.jpg"
             profileAction={() => alert('Access profile')}
+            profileTitle={userMenuProfile}
             signOutAction={() => this.props.logout()}
+            signOutTitle={userMenuSignOut}
             key="2"
             />
         </Header>
@@ -176,6 +184,7 @@ App.propTypes = {
   sidebarMini: React.PropTypes.bool,
   initialCollapse: React.PropTypes.bool,
   theme: React.PropTypes.string,
+  intl: intlShape.isRequired
 };
 
 const mapStateToProps = createStructuredSelector({
@@ -191,4 +200,5 @@ const withConnect = connect(mapStateToProps, mapDispatchToProps);
 
 export default compose(
   withConnect,
+  injectIntl
 )(App);
